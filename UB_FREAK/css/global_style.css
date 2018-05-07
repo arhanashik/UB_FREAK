@@ -1,0 +1,405 @@
+@font-face {
+	font-family: "dead_kansasregular";
+	src: url("../Fonts/dead_kansas/dead_kansas-webfont.eot");
+	src: 
+		url("../Fonts/dead_kansas/dead_kansas-webfont.woff2") format("woff2"),
+		url("../Fonts/dead_kansas/dead_kansas-webfont.woff") format("woff"),
+		url("../Fonts/dead_kansas/dead_kansas-webfont.ttf") format("truetype"),
+		url("../Fonts/dead_kansas/dead_kansas-webfont.svg#filename") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+	font-family: calibri light;
+	background-color: white;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+.container {
+	background-color: white;
+	color:black;
+}
+
+#header {
+    overflow: hidden;
+}
+
+#logo {
+	font-family: 'dead_kansasregular', calibri light;
+    width: 18%;
+	height:22%;
+    margin-top: 3%;
+}
+
+#searchbox {
+    margin-top: 3.5%;
+    margin-right: 3%;
+	overflow: hidden;
+	font-size:12px;
+    font-weight: bold;
+	position:relative;
+}
+
+#search-title {
+	font-family: calibri light;
+	font-size:14px;
+	padding-top:1.5%;
+}
+
+#cart {
+	font-family: calibri light;
+    margin-top: 3.5%;
+    margin-right: 4%;
+	overflow: hidden;
+	font-size:12px;
+    font-weight: bold;
+	position:relative;
+}
+
+#contact {
+	font-family: 'dead_kansasregular', calibri;
+    margin-right: 1%;
+	margin-top:-12%;
+	padding-top:2%;
+	overflow: hidden;
+	position:relative;
+}
+
+#contact:hover {
+	color:brown;
+	cursor:pointer;
+}
+
+#navButton{
+	background: black;
+}
+
+#navButton:hover{
+	background: brown;
+}
+
+.navbar{
+	background:white;
+	border:none;
+	font-family: 'dead_kansasregular', calibri;
+}
+
+.icon-bar {
+	background-color:white !important;
+}
+
+
+.nav.navbar-nav li a{
+	color: black;
+}
+
+.nav.navbar-nav li a.active{
+	background: white;
+	color: brown;
+}
+
+.nav.navbar-nav li a:hover{
+	background: white;
+	color: brown;
+}
+
+.nav.navbar-nav li.dropdown a{
+	background: white;
+	color: black;
+}
+
+.nav.navbar-nav li.dropdown a:hover{
+	color: brown;
+}
+
+#form-title{
+	font-family: 'dead_kansasregular', calibri;
+	font-size:20px;
+    margin-left: 4%;
+    margin-top: 4%;
+}
+
+#form-message{
+	font-family: bahnschrift light, ;
+	font-size:18px;
+}
+
+#questions{
+	font-family: 'dead_kansasregular', calibri;
+    font-size:230%;
+	float:right;
+	margin-top:4%;
+}
+
+#goals{
+	font-family: 'dead_kansasregular', calibri;
+    font-size:230%;
+	width:100%;
+	text-align-last:right;
+	margin-top:4%;
+}
+
+#registration, p{
+	padding-left:3%;
+}
+
+input{
+	font-size:18px;
+    font-weight: normal;
+    border: 2px solid black;
+	width:100%;
+	height:35px;
+	margin-bottom:3%;
+	border-radius: 2px;
+}
+
+input[type=file]{
+	display:none;
+}
+
+input[type=submit]{
+	font-size:14px;
+    font-weight: normal;
+	color:white;
+	background:black;
+	width:auto;
+	height:35px;
+	margin-bottom:10%;
+	padding-left:5%;
+	padding-right:5%;
+	float:right;
+}
+
+select{
+	font-size:14px;
+    font-weight: normal;
+	text-align-last:center;
+    border: 2px solid black;
+	width:100%;
+	height:35px;
+	margin-bottom:3%;
+	border-radius: 2px;
+	
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	background: url(../images/arrow.png) 100% / 6.5% no-repeat #fff;
+}
+
+textarea{
+	font-size:14px;
+    font-weight: normal;
+    border: 2px solid black;
+	width:100%;
+	margin-bottom:10px;
+	resize: none;
+	border-radius: 2px;
+}
+
+form{
+	width:80%;
+	font-family:calibri;
+	font-size:14px;
+    margin-left: 4%;
+}
+
+#form-input{
+	width:100%;
+}
+
+footer{
+	color:white;
+	background-image: url(../images/footer-option.png);
+	width:100%;
+	padding-top:10px;
+	padding-left:50px;
+	padding-right:50px;
+	padding-bottom:10px;
+	font-size:12px;
+}
+
+a{
+	color:white;
+}
+
+a:hover{
+	cursor:pointer;
+	text-decoration: none;
+}
+
+#footer-image{
+	width: 100%;
+	margin-bottom:-5px;
+}
+
+.footer-options{
+	margin-left:20px;
+	margin-right:20px;
+}
+
+#tags{
+	margin-left:7%;
+	margin-right:5%;
+	padding-bottom:5px;
+	border-bottom:1px solid rgba(0, 0, 0, 0.1);
+}
+
+.tag{
+	font-weight:bold;
+	font-size:16px;
+	margin-left:10px;
+	margin-right:10px;
+}
+
+.tag:hover{
+	cursor:pointer;
+	color: brown;
+}
+
+.pagination{
+	margin-left:8%;
+}
+
+.pagination>li>a{
+	color:black;
+}
+
+.pagination>li.active>a{
+	color:white;
+	background:black;
+}
+
+.page-item a{
+	margin:6px;
+	color:black;
+}
+
+.banner .carousel-caption {
+		display: none;
+}
+
+.left.carousel-control, .right.carousel-control{
+	background: none;
+}
+
+.carousel-fade .carousel-inner .item {
+	opacity: 0;
+	transition-property: opacity;
+}
+
+.carousel-fade .carousel-inner .active {
+	opacity: 1;
+}
+
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+	left: 0;
+	opacity: 0;
+	z-index: 1;
+}
+
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+	opacity: 1;
+}
+
+.carousel-fade .carousel-control {
+	z-index: 2;
+}
+
+@media (max-width: 800px) {
+  #logo {
+		font-family: 'dead_kansasregular', calibri;
+		width: 25%;
+		height:30%;
+		margin-top: 3%;
+	}
+	
+	input[type=search]{
+		width:100%;
+		height:30px;
+		margin-bottom:10%;
+		padding-left:5%;
+		padding-right:5%;
+		float:right;
+	}
+	
+	#contact {
+		float:right;
+		margin-right:6%;
+		overflow: visible;
+	}
+	
+	.banner .carousel-caption {
+		display: none;
+	}
+	
+	#questions{
+		font-size:200%;
+	}
+}
+
+@media (max-width: 600px) {
+	 #logo {
+		font-family: 'dead_kansasregular', calibri;
+		width: 25%;
+		height:30%;
+		margin-top: 2%;
+	}
+	
+	#searchbox {
+		margin-left: 2%;
+		overflow: hidden;
+		font-size:12px;
+		font-weight: bold;
+		position:relative;
+	}
+
+	#search-title {
+		font-size:14px;
+		padding-top:1.5%;
+	}
+	
+	input[type=search]{
+		margin-top: -15%;
+		width:100%;
+		height:20px;
+		margin-bottom:5%;
+		padding-left:2%;
+		float:right;
+	}
+
+	#cart {
+		margin-top: -15%;
+		margin-right: 4%;
+		overflow: hidden;
+		font-size:12px;
+		font-weight: bold;
+		position:relative;
+	}
+	
+	#contact {
+		margin-right:4%;
+		margin-top:-8%;
+		padding-top:2%;
+		position:relative;
+	}
+	
+	.banner .carousel-caption {
+		display: none;
+	}
+	
+	#questions{
+		font-size:180%;
+	}
+	
+	select{
+		background: url(../images/arrow.png) 100% / 11% no-repeat #fff;
+	}
+}
+
